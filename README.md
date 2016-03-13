@@ -65,3 +65,8 @@ Screenshot
 ----------
 
 ![Screenshot](https://github.com/krvarma/electron-sms/blob/master/screenshot.jpg)
+
+Demo Video
+----------
+
+https://www.youtube.com/watch?v=njswhDRzbVM
