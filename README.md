@@ -7,7 +7,7 @@ Particle Electron is a Cellular IoT Development kit. It comes with a SIM card wi
 
 It is backward compatible with exiting products. You can use the same APIs to program it. One of the interesting API comes with it is the Cellular API. With Cellular API you can turn on/off the cellular module, read the RSSI, set custom APN in case you are using your own SIM card, etc... There is an interesting API *Cellular.command*. This API allows you to send AT commands directly to the cellular module. This is a powerful API, especially it gives you to the ability to send AT commands supported by the U-Blox cellular module and parse the response.
 
-Here is a sample application to text messages (SMS) using the *Cellular.command* API. You can refer to this [U-Blox Commands Manual](https://www.u-blox.com/en/product-resources/2432?f%5B0%5D=field_file_category:210) and this [Example Application Note](https://www.u-blox.com/sites/default/files/AT-CommandsExamples_AppNote_%28UBX-13001820%29.pdf) for the supported AT Commands. From the document you can see that ***+CMGS*** command can be used to send direct message. Format to send the this AT Command is:
+Here is a sample application to text messages (SMS) using the *Cellular.command* API. You can refer to this [U-Blox Commands Manual](https://www.u-blox.com/en/product-resources/2432?f%5B0%5D=field_file_category:210) and this [Example Application Note](https://www.u-blox.com/sites/default/files/AT-CommandsExamples_AppNote_%28UBX-13001820%29.pdf) for the supported AT Commands. From the document you can see that ***+CMGS*** command can be used to send direct message. Format to send this AT Command is:
 
     AT+CMGS="<number>"<129/145><CR><message body><ctrl+z>
 
