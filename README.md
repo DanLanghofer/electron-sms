@@ -64,7 +64,7 @@ Schematics
 Screenshot
 ----------
 
-![Screenshot](https://github.com/krvarma/electron-sms/blob/master/screenshot.jpg)
+![Screenshot](https://raw.githubusercontent.com/krvarma/electron-sms/master/screenshot.jpg)
 
 Demo Video
 ----------
