@@ -11,7 +11,7 @@ boolean gain;     // Gain setting, 0 = X1, 1 = X16;
 unsigned int ms;  // Integration ("shutter") time in milliseconds
 unsigned int data1;
 unsigned int data2;
-char szPhoneNumber[MAX_PHONE_NUMBER] = "919847237452";
+char szPhoneNumber[MAX_PHONE_NUMBER] = "<<replace your phone number with country code";
 
 int lowerLimit = 10;
 boolean smsSend = false;
