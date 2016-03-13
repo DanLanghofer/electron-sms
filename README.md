@@ -21,7 +21,9 @@ The second part is the message body terminates with Ctrl+Z ASCII Code 26 (0x1A).
 
 Sample Application
 ------------------
-The sample application uses a TSL256 Luminosity sensor to measure light value, If it is below a configurable minimum value, it will send text message to a predefined telephone number. A sample text message is 
+The sample application uses a TSL256 Luminosity sensor to measure light value, If it is below a configurable minimum value, it will send text message to a predefined telephone number. ***Please not that here I am using third party (my own) SIM, not Particle SIM***. I didn't test it with Particle SIM
+
+A sample text message is 
 
     It's too dark here (9.25 lux)
 
